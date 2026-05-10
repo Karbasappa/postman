@@ -1,0 +1,90 @@
+{
+  "info": {
+    "_postman_id": "8866f332-677d-4ed7-9c5f-00871b29efc8",
+    "name": "Actuators",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54380956",
+    "_collection_link": "https://go.postman.co/collection/54380956-8866f332-677d-4ed7-9c5f-00871b29efc8?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "/actuator/health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/actuator/health",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "actuator",
+            "health"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/actuator/metrics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/actuator/metrics",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "actuator",
+            "metrics"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/actuator/threaddump",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/actuator/threaddump",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "actuator",
+            "threaddump"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/actuator",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/actuator",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "actuator"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

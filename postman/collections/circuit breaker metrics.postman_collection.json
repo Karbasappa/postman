@@ -1,0 +1,71 @@
+{
+  "info": {
+    "_postman_id": "998198a4-889a-4165-85d7-052b8f2d6d35",
+    "name": "circuit breaker metrics",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54380956",
+    "_collection_link": "https://go.postman.co/collection/54380956-998198a4-889a-4165-85d7-052b8f2d6d35?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:9000/actuator/health",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "9000",
+          "path": [
+            "actuator",
+            "health"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "circuitbreakers",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:9000/actuator/circuitbreakers",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "9000",
+          "path": [
+            "actuator",
+            "circuitbreakers"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "circuitbreakerevents",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:9000/actuator/circuitbreakerevents",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "9000",
+          "path": [
+            "actuator",
+            "circuitbreakerevents"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
