@@ -1,0 +1,5 @@
+$kind: http-request
+name: /process/api/common/env
+url: http://localhost:5003/process/api/common/env
+method: GET
+order: 4486092175704074

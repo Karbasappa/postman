@@ -1,0 +1,5 @@
+$kind: http-request
+name: /report/merged-data
+url: http://localhost:8081/report/merged-data-thread-pool
+method: GET
+order: 1000

@@ -1,0 +1,5 @@
+$kind: http-request
+name: /api/common/data
+url: http://localhost:8081/api/common/data
+method: GET
+order: 2000

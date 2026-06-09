@@ -1,0 +1,68 @@
+$kind: http-request
+name: /user/create
+url: localhost:9000/user/create
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \        \"discription\": \"Test KK  Global Log Report Date Based\",\r
+
+    \        \"projectName\": \"sab-plm-services\",\r
+
+    \        \"startDate\": \"\",\r
+
+    \        \"createDate\": \"02-10-2023 11:47:44\",\r
+
+    \        \"updateDate\": \"\",\r
+
+    \        \"closedDate\": \"\",\r
+
+    \        \"storyPoint\": 13,\r
+
+    \        \"targetDate\": \"\",\r
+
+    \        \"developingSkill\": \"Spring Boot\",\r
+
+    \        \"assigned\": \"Sunil\",\r
+
+    \        \"gitBranch\": \"\",\r
+
+    \        \"gitUrl\": \"\",\r
+
+    \        \"status\": \"Open\",\r
+
+    \        \"epic\": \"\",\r
+
+    \        \"project\": \"scratch\",\r
+
+    \        \"severity\": \"Medium\",\r
+
+    \        \"expectedFixedVersion\": \"\",\r
+
+    \        \"actualFixedVersion\": \"\",\r
+
+    \        \"linkedStories\": \"\",\r
+
+    \        \"effort\": null,\r
+
+    \        \"lables\": null,\r
+
+    \        \"taskList\": null,\r
+
+    \        \"logList\": null,\r
+
+    \        \"commentsList\": null,\r
+
+    \        \"activityList\": null,\r
+
+    \        \"issueList\": null,\r
+
+    \        \"upDateDate\": \"\"\r
+
+    \    },"
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc3ODE1MjY1MywiZXhwIjoxNzc4MTU2MjUzfQ.lWCHov3qfRbur3jQrtQBkk3fFtDU1YQ9V3hYaDWocPc
+order: 6000

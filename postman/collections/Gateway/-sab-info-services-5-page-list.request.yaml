@@ -1,0 +1,5 @@
+$kind: http-request
+name: /sab-info-services-5/page/list
+url: ""
+method: GET
+order: 4439020809173074

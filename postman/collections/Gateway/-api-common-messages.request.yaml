@@ -1,0 +1,5 @@
+$kind: http-request
+name: /api/common/messages
+url: http://localhost:9000/api/common/messages
+method: GET
+order: 3267945511766103

@@ -1,0 +1,5 @@
+$kind: http-request
+name: New Request
+url: localhost:8081/wiki/page/details/PAG104399706
+method: GET
+order: 4491518510880460

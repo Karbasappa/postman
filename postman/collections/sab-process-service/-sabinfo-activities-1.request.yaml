@@ -1,0 +1,5 @@
+$kind: http-request
+name: /sabinfo/activities
+url: http://localhost:8081/sabinfo/activities
+method: GET
+order: 4498032814021678

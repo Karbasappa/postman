@@ -1,0 +1,5 @@
+$kind: http-request
+name: /actuator/threaddump
+url: http://localhost:8081/actuator/threaddump
+method: GET
+order: 3000

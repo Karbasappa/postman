@@ -1,0 +1,5 @@
+$kind: http-request
+name: /actuator/metrics
+url: http://localhost:5001/actuator/metrics/hikaricp.connections
+method: GET
+order: 2000

@@ -1,0 +1,5 @@
+$kind: http-request
+name: /wiki/book/all
+url: localhost:5004/sab-info-services-5/book/all
+method: GET
+order: 1779031617729

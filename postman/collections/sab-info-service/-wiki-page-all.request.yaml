@@ -1,0 +1,5 @@
+$kind: http-request
+name: /wiki/page/all
+url: localhost:8081/wiki/page/all
+method: GET
+order: 1597828647354827

@@ -1,0 +1,5 @@
+$kind: http-request
+name: /report/merged-data 1
+url: http://localhost:5002/report/merged-data1
+method: GET
+order: 3000

@@ -1,0 +1,18 @@
+$kind: http-request
+name: search-string-by-fork
+url: http://localhost:5002/search
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \    \"searchType\": \"TEXT\",\r
+
+    \    \"queryString\": \"NodeJS\",\r
+
+    \    \"threadType\": \"FORK\",\r
+
+    \    \"requiredThreadDump\": false\r
+
+    }"
+order: 4499575036739130

@@ -1,0 +1,5 @@
+$kind: http-request
+name: /app/env
+url: localhost:8081/app/env
+method: GET
+order: 3096005115380336

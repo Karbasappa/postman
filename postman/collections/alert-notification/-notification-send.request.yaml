@@ -1,0 +1,8 @@
+$kind: http-request
+name: /notification/send
+url: localhost:5002/notification/send
+method: POST
+body:
+  type: json
+  content: Hi Kafka....!
+order: 3144924107933984

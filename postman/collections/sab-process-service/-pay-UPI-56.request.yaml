@@ -1,0 +1,5 @@
+$kind: http-request
+name: /pay/UPI/56
+url: http://localhost:9091
+method: GET
+order: 4502361845426537

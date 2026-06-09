@@ -1,0 +1,9 @@
+$kind: http-request
+name: /user/list/OPEN
+url: localhost:9000/user/list/OPEN
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc4MTAyNTEyMiwiZXhwIjoxNzgxMDI4NzIyfQ.TdLAGC2wjnMepMkE-VqcC83uhqjpSknTTt6cP3Q9ZcM
+order: 5000

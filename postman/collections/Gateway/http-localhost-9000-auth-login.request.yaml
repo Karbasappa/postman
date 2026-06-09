@@ -1,0 +1,19 @@
+$kind: http-request
+name: http://localhost:9000/auth/login
+url: http://localhost:9000/auth/login
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"username\":\"admin\",\r
+
+    \    \"password\":\"admin\"\r
+
+    }"
+auth:
+  type: basic
+  credentials:
+    password: admin
+    username: admin
+order: 2000

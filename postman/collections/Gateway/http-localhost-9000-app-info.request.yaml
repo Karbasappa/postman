@@ -1,0 +1,11 @@
+$kind: http-request
+name: http://localhost:9000/app/info
+url: http://localhost:9000/app/info
+method: GET
+queryParams:
+  - key: Authorization
+    value: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTc3NzYwMzk0MiwiZXhwIjoxNzc3NjA3NTQyfQ.BW9dYSJxviKCgLvvDAIsRzr6T6xbV8Ie0T2xBqL33Do
+    disabled: true
+auth:
+  type: noauth
+order: 1000

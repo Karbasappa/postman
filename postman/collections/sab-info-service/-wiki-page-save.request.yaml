@@ -1,0 +1,26 @@
+$kind: http-request
+name: /wiki/page/save
+url: localhost:8081/wiki/page/save
+method: POST
+body:
+  type: json
+  content: " {\r
+
+    \        \"pageId\": \"PAG104399706\",\r
+
+    \        \"pageNo\": 14,\r
+
+    \        \"bookId\": \"SAB677192\",\r
+
+    \        \"bookName\": \"PLM\",\r
+
+    \        \"title\": \"test docker\",\r
+
+    \        \"content\": null,\r
+
+    \        \"createdDate\": \"22-02-2023 20:52:55\",\r
+
+    \        \"createdBy\": \"SAB616029028\"\r
+
+    \    }"
+order: 4426319703850074
